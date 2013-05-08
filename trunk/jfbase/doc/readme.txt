@@ -1,3 +1,11 @@
+【源码地址】
+https://jfbase.googlecode.com/svn/trunk/
+http://jfbase.googlecode.com/svn/trunk/
+
+【开发组】
+组员叶平平：yepingping588@gmail.com   Rw3yk6RM8KG2
+组员吴朝禧：tide695065858@gamil.com
+
 【目录结构说明】
 src---------------源代码
  |-	common-----------------公共包

@@ -20,7 +20,7 @@
 	</context:component-scan>
 
 	<!-- 引入属性文件 -->
-	<context:property-placeholder location="classpath:init.properties" />
+	<context:property-placeholder location="classpath*:init.properties" />
 
 	<bean id="dataSource" class="org.logicalcobwebs.proxool.ProxoolDataSource">
 		<property name="driver" value="${hibernate.driverClass}" />

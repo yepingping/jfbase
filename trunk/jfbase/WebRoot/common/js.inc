@@ -3,7 +3,7 @@
 <link href="common/themes/css/core.css" rel="stylesheet" type="text/css" media="screen"/>
 <link href="common/themes/css/print.css" rel="stylesheet" type="text/css" media="print"/>
 
-<script src="common/jsFile/jquery/jquery-1.7.2.js" type="text/javascript"></script>
+<script src="common/jsFile/jquery/jquery-1.8.3.js" type="text/javascript"></script>
 <script src="common/jsFile/jqueryPlugin/jquery.cookie.js" type="text/javascript"></script>
 <script src="common/jsFile/jqueryPlugin/jquery.validate.js" type="text/javascript"></script>
 <script src="common/jsFile/jqueryPlugin/jquery.bgiframe.js" type="text/javascript"></script>
@@ -41,3 +41,5 @@
 <script src="common/jsFile/dwz/dwz.combox.js" type="text/javascript"></script>
 <script src="common/jsFile/dwz/dwz.print.js" type="text/javascript"></script>
 <script src="common/jsFile/dwz/dwz.regional.zh.js" type="text/javascript"></script>
+
+<script src="common/jsFile/jf/jf.core.js" type="text/javascript"></script>
