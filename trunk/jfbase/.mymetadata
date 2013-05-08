@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="jfbase"
+  id="myeclipse.1366812085051"
+  context-root="/jfbase"
+  j2ee-spec="5.0"
+  archive="jfbase.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
