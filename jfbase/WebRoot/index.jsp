@@ -22,6 +22,15 @@
 <meta http-equiv="expires" content="0">
 <jsp:include page="common/js.inc"></jsp:include>
 <script src="index.js" type="text/javascript"></script>
+<!--
+<style type="text/css">
+
+	#header{height:85px}
+
+	#leftside, #container, #splitBar, #splitBarProxy{top:90px}
+
+</style>
+-->
 </head>
 
 <body scroll="no">
@@ -66,8 +75,18 @@
 				</ul>
 			</div>
 
-			<!-- navMenu -->
-
+			<!-- navMenu
+			<div id="navMenu">
+				<ul>
+					<li class="selected"><a href="sidebar_1.html"><span>资讯管理</span></a></li>
+					<li><a href="sidebar_2.html"><span>订单管理</span></a></li>
+					<li><a href="sidebar_1.html"><span>产品管理</span></a></li>
+					<li><a href="sidebar_2.html"><span>会员管理</span></a></li>
+					<li><a href="sidebar_1.html"><span>服务管理</span></a></li>
+					<li><a href="sidebar_2.html"><span>系统设置</span></a></li>
+				</ul>
+			</div>
+		 -->
 		</div>
 
 		<div id="leftside">

@@ -35,12 +35,12 @@ $(function(){
 			$.each($menuTree,function(i,row){
 				var _d = $("<div class='accordionHeader'><h2><span>Folder</span>"+ row.attributes.title + "</h2></div>");
 				var _s = $("<div class='accordionContent'></div>");
-				_s.tree({
+				/*_s.tree({
 							data : {
 								type : 'json',
 								json : row.children
 							}
-						});
+						});*/
 				$("#syMenu").append(_d).append(_s);
 			});
 		}
