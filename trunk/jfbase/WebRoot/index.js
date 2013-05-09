@@ -23,12 +23,29 @@ $(function(){
 				}); // themeBase 相对于index页面的主题base路径
 			}
 	});
-	$.nsAjax({
+	var initMenu = function(){
+		$.nsAjax({
 		url: $webPath+'syMenu.json',
+		dataType : "json",
+		cache : false,
+		async : true,
 		success:function(data){
-			console.info(data);
-			$("#syMenu").html("");
+			var $menuTree = data;
+			console.info($menuTree);
+			$.each($menuTree,function(i,row){
+				var _d = $("<div class='accordionHeader'><h2><span>Folder</span>"+ row.attributes.title + "</h2></div>");
+				var _s = $("<div class='accordionContent'></div>");
+				_s.tree({
+							data : {
+								type : 'json',
+								json : row.children
+							}
+						});
+				$("#syMenu").append(_d).append(_s);
+			});
 		}
 	});
+	};
+	initMenu();
 	
 });

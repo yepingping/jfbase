@@ -1,1 +1,92 @@
-{['ids':'1',id':'0','pid':'-1','name':'导航菜单'],['ids':'2','id':'0','pid':'-1','name':'树形菜单']}
+[
+    {
+        "attributes": {
+            "title": "系统管理"
+        },
+        "children": [
+            {
+                "attributes": {
+                    "title": "组织机构设置"
+                },
+                "children": [
+                    {
+                        "attributes": {
+                            "title": "公司设置",
+                            "href": "xtgl/zzjgsz_gssz.jsp",
+                            "target": "navTab"
+                        },
+                        "children": []
+                    },
+                    {
+                        "attributes": {
+                            "title": "部门设置",
+                            "href": "xtgl/zzjgsz_bmsz.jsp",
+                            "target": "navTab"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "attributes": {
+                    "title": "业务管理"
+                },
+                "children": [
+                    {
+                        "attributes": {
+                            "title": "业务参数"
+                        },
+                        "children": [
+                            {
+                                "attributes": {
+                                    "title": "功能参数",
+                                    "href": "ywgl/ywcs_gncs.jsp",
+                                    "target": "navTab"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "attributes": {
+                    "title": "开发工具"
+                },
+                "children": [
+                    {
+                        "attributes": {
+                            "title": "取色工具",
+                            "href": "kfgj/kfgj_qsgj.jsp",
+                            "target": "navTab"
+                        },
+                        "children": []
+                    },
+                    {
+                        "attributes": {
+                            "title": "系统图片",
+                            "href": "kfgj/kfgj_xttp.jsp",
+                            "target": "navTab"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },{
+    	"attributes": {
+            "title": "内容管理"
+        },
+        "children": []
+    },{
+    	"attributes": {
+            "title": "CRM"
+        },
+        "children": []
+    },{
+    	"attributes": {
+            "title": "办公OA"
+        },
+        "children": []
+    }
+]
