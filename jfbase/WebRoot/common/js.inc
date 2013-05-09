@@ -2,6 +2,7 @@
 <link href="common/themes/default/style.css" rel="stylesheet" type="text/css" media="screen"/>
 <link href="common/themes/css/core.css" rel="stylesheet" type="text/css" media="screen"/>
 <link href="common/themes/css/print.css" rel="stylesheet" type="text/css" media="print"/>
+<link href="common/jsFile/tree/tree_component.css" rel="stylesheet" type="text/css" />
 
 <script src="common/jsFile/jquery/jquery-1.8.3.js" type="text/javascript"></script>
 <script src="common/jsFile/jqueryPlugin/jquery.cookie.js" type="text/javascript"></script>
@@ -41,5 +42,8 @@
 <script src="common/jsFile/dwz/dwz.combox.js" type="text/javascript"></script>
 <script src="common/jsFile/dwz/dwz.print.js" type="text/javascript"></script>
 <script src="common/jsFile/dwz/dwz.regional.zh.js" type="text/javascript"></script>
+
+<script src="common/jsFile/tree/css.js" type="text/javascript"></script>
+<script src="common/jsFile/tree/tree_component.js" type="text/javascript"></script>
 
 <script src="common/jsFile/jf/jf.core.js" type="text/javascript"></script>

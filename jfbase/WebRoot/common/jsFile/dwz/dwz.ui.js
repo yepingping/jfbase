@@ -278,6 +278,20 @@ function initUI(_box){
 	if ($.fn.pagerForm) $("form[rel=pagerForm]", $p).pagerForm({parentBox:$p});
 
 	// 这里放其他第三方jQuery插件...
+	
+	function namespace(ns) {
+		if (typeof(ns) != "string")
+			return;
+		ns = ns.split(".");
+		var o, ni;
+		for (var i = 0, len = ns.length; i < len, ni = ns[i]; i++) {
+			try {
+				o = (o ? (o[ni] = o[ni] || {}) : (eval(ni + "=" + ni + "||{}")));
+			} catch (e) {
+				o = eval(ni + "={}");
+			}
+		}
+	};
 }
 
 
