@@ -6,6 +6,9 @@ http://jfbase.googlecode.com/svn/trunk/
 组员叶平平：yepingping588@gmail.com   Rw3yk6RM8KG2
 组员吴朝禧：tide695065858@gamil.com
 
+【项目版本号】
+jfbase-1.0.0alpha
+
 【目录结构说明】
 src---------------源代码
  |-	common-----------------公共包
@@ -21,7 +24,7 @@ src---------------源代码
 说明：框架使用Spring3.2、Spring3.2MVC、Hibernate4.2、Shiro、freemarker、proxool、ehcache
 
 【前端框架】
-说明：jquery、dwz、validate、cookie、bgiframe
+说明：jquery、dwz、validate、cookie、bgiframe、tree
 
 【系统部署】
 环境：jdk1.6
